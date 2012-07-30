@@ -18,10 +18,10 @@ a {
   text-decoration: none;
 }
 a:visited {
-color: #000000;
+color: #ffffff;
 }
 a:link {
-color: #000000;
+color: #ffffff;
 }
 
 .centered {
@@ -113,7 +113,7 @@ color: #000000;
 {
   font-style: italic;
   font-size: 9pt;
-  margin-top:154px;
+  margin-top:84px;
   height:66px;
   color:#FFFFFF;
 }
@@ -157,7 +157,7 @@ color: #000000;
 
 #index-wrapper
 {
-  height: 850px;
+  height: 950px;
 }
 
 .content-block
@@ -245,16 +245,49 @@ color: #000000;
 {
   width: 140px;
   float: left;
+  height: 140px;
+  background: url('../img/left-panel.png') repeat-y;
+  font-family: "Baskerville Old Face", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 11pt;
 }
 
 #center-panel
 {
-  width: 840px;
+  width: 805px;
   float: left;
   background: #FFFFFF;
+  padding-left: 35px;
+  padding-top: 40px;
+  padding-bottom: 240px;
 }
 
 .wrapper
 {
   background: url('../img/left-back.png') repeat-y;
+}
+
+#wrapper-title1
+{
+  font-family: "Helvetica Neue",Helvetica;
+  font-size: 28pt;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+
+#wrapper-title2
+{
+  font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
+  font-size: 24pt;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+#wrapper-description
+{
+  font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
+  margin-bottom: 20px;  
+  font-size: 9pt;
 }

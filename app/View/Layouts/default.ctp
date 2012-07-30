@@ -47,7 +47,7 @@
         <div id="logo"></div>
         <div id="navi">
           <ul>
-            <li>ABOUT MISSIN</li>
+            <li><a href="/about">ABOUT MISSIN</a></li>
             <li>MEMBER</li>
             <li>CONTACT US</li>
           </ul>
