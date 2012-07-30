@@ -60,7 +60,7 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/Mysql',
+		'datasource' => 'DummySource',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'user',

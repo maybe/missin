@@ -173,8 +173,13 @@
  *
  */
 	Configure::write('Session', array(
-		'defaults' => 'php'
+		'defaults' => 'cake',
+    'ini' => array(
+      'session.cookie_secure' => false
+    ),
+    'timeout' => 4320 //3 days  
 	));
+
 
 /**
  * The level of CakePHP security.
@@ -184,12 +189,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'ri9i93i9qpjj9vRFI$#QQ3d3GkojiqlfiqmmieIBj12');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '65033483321136599800376113');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
