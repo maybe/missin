@@ -243,24 +243,48 @@ color: #ffffff;
 
 #left-panel
 {
-  width: 140px;
+  width: 106px;
   float: left;
   height: 140px;
   background: url('../img/left-panel.png') repeat-y;
   font-family: "Baskerville Old Face", sans-serif;
   font-style: italic;
   font-weight: 500;
-  font-size: 11pt;
+  font-size: 10pt;
+}
+
+#left-panel-div1
+{
+  margin-left:10px;
+  margin-top:25px;
+}
+
+#left-panel-div2
+{
+  margin-left:10px;
+}
+
+#left-panel-div3
+{
+  margin-left:10px;
+}
+
+#left-panel-div4
+{
+  margin-left:20px;
+  color:#969595;
+  margin-top:30px;
 }
 
 #center-panel
 {
-  width: 805px;
+  width: 839px;
   float: left;
   background: #FFFFFF;
   padding-left: 35px;
   padding-top: 40px;
   padding-bottom: 240px;
+  position: relative;
 }
 
 .wrapper
@@ -285,9 +309,16 @@ color: #ffffff;
   margin-bottom: 40px;
 }
 
-#wrapper-description
+.wrapper-description
 {
   font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
   margin-bottom: 20px;  
   font-size: 9pt;
+  color: #6e6e6e;
+}
+
+.wrapper-section
+{
+  font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
+  font-size: 12pt;
 }
