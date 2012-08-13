@@ -49,13 +49,13 @@
           <ul>
             <li><a href="/about">ABOUT MISSIN</a></li>
             <li><a href="/member">MEMBER</a></li>
-            <li>CONTACT US</li>
+            <li><a href="/contact">CONTACT US</a></li>
           </ul>
           <br clear="all"/>
           <ul>
-            <li>BRAND GIFT</li>
-            <li>COOPERATION</li>
-            <li>ONLINE STORE</li>
+            <li><a href="/brand_gift">BRAND GIFT</a></li>
+            <li><a href="/cooperation">COOPERATION</a></li>
+            <li><a href="/online">ONLINE STORE</a></li>
           </ul>
           <br clear="all"/>
         </div>

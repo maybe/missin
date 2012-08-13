@@ -315,10 +315,34 @@ color: #ffffff;
   margin-bottom: 20px;  
   font-size: 9pt;
   color: #6e6e6e;
+  line-height: 1.4em;
 }
 
 .wrapper-section
 {
   font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
   font-size: 12pt;
+}
+
+#classic ul {
+  list-style-type: none;
+  margin: 8px 0px 0px 0px;
+  padding: 0 0 0 6px;
+}
+#classic ul, li {
+  float: left;
+}
+
+#classic li {
+  font-size: 11pt;
+  margin-right: 20px;
+}
+
+#classic li a{
+  color: #6e6e6e;
+}
+
+.classic-select
+{
+  color: #000000;
 }
