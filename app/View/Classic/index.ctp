@@ -1,16 +1,15 @@
 <div class="wrapper" style="position: relative;color:#000000;">
 
   <div id="left-panel">
-    <div id="left-panel-div1">Classic</div>
+    <div id="left-panel-div1"><img src="img/classic/classic_s.jpg" /></div>
     <div id="left-panel-div2">-</div>
-    <div id="left-panel-div3">MissIN / 2012</div>
-    <div id="left-panel-div4">Comments</div>
+    <div id="left-panel-div3"><img src="img/missin_2012.jpg" /></div>
+    <div id="left-panel-div4"><img src="img/comments.jpg" /></div>
   </div>
 
   <div id="center-panel">
-    <div id="wrapper-title1">CLASSIC<img src="img/wrapper-arrow.png" style="margin-left: 20px;"/></div>
-    <div id="wrapper-title2">经典永恒</div> 
-    
+    <div id="wrapper-title"><img src="img/classic/classic.jpg"/></div>
+
     <div id="classic">
       <ul>
         <li><a href="/classic?s=0" <?php if($style==0) echo "style='color:#000000;'";?>>甄选小黑裙</a></li>
@@ -49,8 +48,7 @@
       </div>
     </div>
 
-
+    <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/"><img src="img/back_home.jpg" /></a></div>
   </div>
-  
   <br clear="all" />
 </div>

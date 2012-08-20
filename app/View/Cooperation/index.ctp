@@ -1,16 +1,14 @@
 <div class="wrapper" style="position: relative;color:#000000;">
 
   <div id="left-panel">
-    <div id="left-panel-div1">Cooperation</div>
+    <div id="left-panel-div1"><img src="img/cooperation/cooperation_s.jpg" /></div>
     <div id="left-panel-div2">-</div>
-    <div id="left-panel-div3">MissIN / 2012</div>
-    <div id="left-panel-div4">Comments</div>
-
+    <div id="left-panel-div3"><img src="img/missin_2012.jpg" /></div>
+    <div id="left-panel-div4"><img src="img/comments.jpg" /></div>
   </div>
 
   <div id="center-panel">
-    <div id="wrapper-title1">COOPERATION<img src="img/wrapper-arrow.png" style="margin-left: 20px;"/></div>
-    <div id="wrapper-title2">企业合作</div> 
+    <div id="wrapper-title"><img src="img/cooperation/cooperation.jpg"/></div>
 
     <div class="wrapper-section"><img src="/img/brand_gift_plus.jpg"/>&nbsp;公司客户</div>
     <div>
@@ -53,7 +51,7 @@
       <span style="color: #6e6e6e;line-height:1.5em;">置换、传播及版权制度请详询客服</span>
     </div>
 
+    <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/"><img src="img/back_home.jpg" /></a></div>
   </div>
-  
   <br clear="all" />
 </div>
