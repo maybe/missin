@@ -345,3 +345,62 @@ color: #ffffff;
 {
   color: #000000;
 }
+
+.classic-desc
+{
+  font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
+  font-size: 9pt;
+  color: #6e6e6e;
+  line-height: 1.4em;
+}
+
+.classic-item
+{
+  float:left;
+  margin-right: 4px;
+}
+
+#classic-rarrow
+{
+  float:left;
+  margin-top:130px;
+  margin-left:10px;
+}
+
+.media-item
+{
+  float:left;
+  margin-right:4px;
+}
+
+#newtime-rarrow
+{
+  float:left;
+  margin-top:130px;
+  margin-left:10px;
+}
+
+.newtime-desc
+{
+  font-family: "Microsoft YaHei", "WenQuanYi Micro Hei",黑体,SimHei,"Heiti SC",sans-serif;
+  font-size: 9pt;
+  color: #6e6e6e;
+  line-height: 1.4em;
+}
+
+.newtime-item
+{
+  float:left;
+  margin-right: 4px;
+}
+
+a.newtime-a {
+  text-decoration: none;
+  color:#000000;
+}
+a.newtime-a:visited {
+color: #000000;
+}
+a.newtime-a:link {
+color: #000000;
+}

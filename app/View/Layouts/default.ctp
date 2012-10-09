@@ -36,9 +36,9 @@
         </div>
         <div id="follow" style="float:right;margin-right: 30px">
           <div style="float: left; margin:14px 5px 0px 0px;">FOLLOW US ON: </div>
-          <div class="follow-item"><a href="/"><img src="img/follow-1.png" style="border:0;margin: 0;padding: 0;"/></a></div>
-          <div class="follow-item"><a href="/"><img src="img/follow-2.png" style="border:0;margin: 0;padding: 0;"/></a></div>
-          <div class="follow-item"><a href="/"><img src="img/follow-3.png" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-1.png" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-2.png" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-3.png" style="border:0;margin: 0;padding: 0;"/></a></div>
           <br clear="all" />
         </div>
         <br clear="all"/>
@@ -67,7 +67,7 @@
       <br clear="all" />
 		</div>
 		<div id="footer">
-      <span><a href="/">SHOP ONLINE<img src="img/bottom-car.png" style="margin-left: 5px;"/></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span><a href="/online">SHOP ONLINE<img src="img/bottom-car.png" style="margin-left: 5px;"/></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <span><a href="/">CONTACT US: 4008-517-517</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <span><a href="/">CLUB</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <span><a href="/">JOIN US</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -17,9 +17,9 @@
     <br clear="all" />
 
     <div style="margin-top:36px"></div>
-    <div style="float:left;margin-left:0px;"><a href="http://tmall.com/"><img src="/img/online/tmall_link.jpg" /></a></div>
-    <div style="float:left;margin-left:196px;"><a href="http://taobao.com/"><img src="/img/online/taobao_link.jpg" /></a></div>
-    <div style="float:left;margin-left:136px;"><a href="http://360buy.com/"><img src="/img/online/jingdong_link.jpg" /></a></div>
+    <div style="float:left;margin-left:0px;"><a href="http://missin.tmall.com" target="_blank"><img src="/img/online/tmall_link.jpg" /></a></div>
+    <div style="float:left;margin-left:196px;"><a href="http://miss-in.taobao.com" target="_blank"><img src="/img/online/taobao_link.jpg" /></a></div>
+    <div style="float:left;margin-left:136px;"><a href="http://mall.360buy.com/index-13560.html" target="_blank"><img src="/img/online/jingdong_link.jpg" /></a></div>
     <br clear="all" />
 
     <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/"><img src="img/back_home.jpg" /></a></div>

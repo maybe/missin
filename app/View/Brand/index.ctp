@@ -12,7 +12,7 @@
 
 
     <div class="wrapper-section"><img src="/img/brand_plus.png">&nbsp;&nbsp;行李超重的设计师</div>
-    <div class="wrapper-description" style="margin-left:20px;margin-bottom:40px;width:600px;">
+    <div class="wrapper-description" style="margin-left:20px;margin-bottom:16px;width:600px;">
     <br />
     为找寻合适而独到的裙装面料，MissIN设计师常常奔走于各大国际服装辅料市场，巴黎、米兰、纽约、伦敦，日本、韩国、印度、
       尼泊尔，甚至伊朗、埃及、摩洛哥，毛、呢、棉、麻、丝、皮、化纤、涤纶，以及各式串珠、纽扣、花边、纹饰、色彩，都会被设
@@ -25,7 +25,7 @@
 <br />
     </div>
     <div class="wrapper-section"><img src="/img/brand_plus.png">&nbsp;&nbsp;版师的特约模特</div>
-    <div class="wrapper-description" style="margin-left:20px;margin-bottom:40px;width:600px;">
+    <div class="wrapper-description" style="margin-left:20px;margin-bottom:16px;width:600px;">
     <br />
       通常情况下，一件计划生产S\M\L三种尺码的裙装，在设计师以任意一种尺码设计完成后，将交由版师分解各个部分，依经验放大
       或缩小另外两种尺码在关键位置的距离，从而制成三套大小各不相同的样衣纸板，以适应工厂规模式批量生产。<br />
@@ -41,7 +41,7 @@
     </div>
 
     <div class="wrapper-section"><img src="/img/brand_plus.png">&nbsp;&nbsp;没有华容道</div>
-    <div class="wrapper-description" style="margin-left:20px;margin-bottom:40px;width:600px;">
+    <div class="wrapper-description" style="margin-left:20px;margin-bottom:16px;width:600px;">
     <br />
       每一季，MissIN会投入大量人力物力到拥有国际资质认证的第三方检测机构，对旗下工厂及品牌产品做全线质检。<br />
 <br />
@@ -54,7 +54,7 @@
     </div>
 
     <div class="wrapper-section"><img src="/img/brand_plus.png">&nbsp;&nbsp;没有几个服装生产企业会采用挂装</div>
-    <div class="wrapper-description" style="margin-left:20px;margin-bottom:40px;width:600px;">
+    <div class="wrapper-description" style="margin-left:20px;margin-bottom:16px;width:600px;">
     <br />
       在MissIN成品库房，灯笼串、辣椒串等成衣挂装形式随处可见。选择挂装的仓储方案，除了可以减少高级裙料无褶皱无压痕这一优
       点外，实在没有其他好处可言。费人力、占面积、高运输费，没有几个服装生产企业会允许这种苦差事。<br />
