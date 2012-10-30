@@ -1,242 +1,151 @@
-  function doSomething() {
-      frame_top = $("#works-content").offset().top;
-      alert(frame_top + " " + $(window).height());
-      
-      if (frame_top<-50)
-      {
-        margin = $("#works-content").css("margin-top");
-        margin = -parseInt(margin)-50;
-        $("#works-content").css("top", margin.toString()+"px");
-      }
-      else
-      {
-        $("#works-content").css("top","50%");
-      }     
+var t1 = t2 = t3 = t4 = t5 = t6 = n1 = n2 = n3 = n4 = n5 = n6 = 0, count1, count2, count3, count4, count5, count6;
+$(document).ready(function(){
+  initBanner("#index-new", 0);  
+  initBanner("#index-classic", 1);  
+  initBanner("#index-media", 2);  
+  initBanner("#index-designer", 3);  
+  initBanner("#index-brand", 4);  
+  initBanner("#index-world", 5);  
+
+})
+
+function initBanner(parentName, num)
+{
+  count=$(parentName + " .content-banner-list a").length;
+  if(num==0) count1 = count;
+  if(num==1) count2 = count;
+  if(num==2) count3 = count;
+  if(num==3) count4 = count;
+  if(num==4) count5 = count;
+  if(num==5) count6 = count;
+  
     
-//    frame_left = $("#works-content").offset().left;
-//    if(frame_left < 220)
-//    {
-//      margin = $("#works-content").css("margin-left");
-//      margin = -parseInt(margin)+300;
-//      $("#works-content").css("left", margin.toString()+"px");
-//    }
-//    else
-//    {
-//      $("#works-content").css("left","50%");
-//    }
+  $(parentName + " .content-banner-list a:not(:first-child)").hide();
+
+$(parentName + " .content-banner li").click(function() {
+    var i = $(this).text() - 1;//获取Li元素内的值，即1，2，3，4
+    if(num==0) 
+    {
+      n1 = i;
+      if (i >= count1) return;
+    }
+    if(num==1) 
+    {
+      n2 = i;
+      if (i >= count2) return;
+    }
+    if(num==2) 
+    {
+      n3 = i;
+      if (i >= count3) return;
+    }
+    if(num==3) 
+    {
+      n4 = i;
+      if (i >= count4) return;
+    }
+    if(num==4) 
+    {
+      n5 = i;
+      if (i >= count5) return;
+    }
+    if(num==6) 
+    {
+      n6 = i;
+      if (i >= count6) return;
+    }
+
+    $(parentName + " .content-banner-list a").filter(":visible").fadeOut(500).parent().children().eq(i).fadeIn(1000);
+    $(parentName + " .content-banner").css("background","");
+    
+    $(this).toggleClass("on");
+    $(this).siblings().removeAttr("class");
+  });
+  
+  if(num==0)
+  {
+    t1 = setInterval("showAuto1()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t1)
+      }, function(){
+      t1 = setInterval("showAuto1()", 4000+Math.random());
+    });
   }
-
-$(document).ready(function(){ 
-  
-  var timer_left;
-  var timer_right;
-  var timer_thumb;
-  
-  $("#li-a-works").mouseover(function(){
-    $("#sidebar-works").show();
-  });
-  
-  $(".li-a-other").mouseover(function(){
-    $("#sidebar-works").hide();
-  });
-  
-  $("#sidebar-back").mouseout(function(e) {
-//
-//    var cur_mouse_x = e.originalEvent.layerX ||e.originalEvent.x|| 0;
-//    var cur_mouse_y = e.originalEvent.layerY||e.originalEvent.y || 0;
-//    
-//    frame_left = $(this).position().left;
-//    frame_top = $(this).position().top;
-//    
-//    
-//    frame_width = $(this).width();
-//    frame_height = $(this).height();
-//    
-//    if(cur_mouse_x<frame_left||cur_mouse_y<frame_top||cur_mouse_x>frame_left+frame_width||cur_mouse_y>frame_top+frame_height)
-//    {      
-////      alert(cur_mouse_y);
-////      alert(frame_top);
-      $("#sidebar-works").hide();
-  //  }
-  });
-  
-  $("#hor-bar li").mouseout(function(){
-    $("#thumb").css("display","none");
-  });
-  
-  $("#hor-bar li").mouseover(function(){
-    if (timer_thumb) {
-      clearTimeout(timer_thumb);
-      timer_thumb = 0;
-    }
-    
-      var img_url = $(this).attr('img-source');
-      var li_left = $(this).position().left;  
-
-    timer_thumb = setTimeout(function() {
-   
-
-      var thumb_img = new Image();
-      $(thumb_img).load(function(){		
-        $("#thumb img").attr("src", img_url);
-
-        img_height = thumb_img.height;
-        img_width = thumb_img.width;
-
-        $("#thumb").css("top", -img_height);
-        $("#thumb").css("left", li_left+3-img_width/2);
-
-        $("#thumb").fadeIn();
-      
-    }).attr("src", img_url); 
-    }, 500)  
-  });
-    
-  $("#hor-bar").mouseout(function(){
-    if (timer_thumb) {
-      clearTimeout(timer_thumb);
-      timer_thumb = 0;
-    }
-    $("#thumb").css("display","none");
-  });  
-  
-        
-  $("#vert-bar li").mouseout(function(){
-  $("#thumb").css("display","none");
-  });
-  
-  $("#vert-bar li").mouseover(function(){
-    if (timer_thumb) {
-      clearTimeout(timer_thumb);
-      timer_thumb = 0;
-    }
-    
-    var img_url = $(this).attr('img-source');
-    var li_top = $(this).position().top;
-    
-    timer_thumb = setTimeout(function() {    
+  if(num==1)
+  {
+    t2 = setInterval("showAuto2()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t2)
+      }, function(){
+      t2 = setInterval("showAuto2()", 4000+Math.random());
+    });
+  }
+  if(num==2)
+  {
+    t3 = setInterval("showAuto3()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t3)
+      }, function(){
+      t3 = setInterval("showAuto3()", 4000+Math.random());
+    });
+  }
+  if(num==3)
+  {
+    t4 = setInterval("showAuto4()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t4)
+      }, function(){
+      t4 = setInterval("showAuto4()", 4000+Math.random());
+    });
+  }
+  if(num==4)
+  {
+    t5 = setInterval("showAuto5()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t5)
+      }, function(){
+      t5 = setInterval("showAuto5()", 4000+Math.random());
+    });   
+  }
+  if(num==5)
+  {
+    t6 = setInterval("showAuto6()", 4000+Math.random());
+    $(parentName + " .content-banner").hover(function(){
+      clearInterval(t6)
+      }, function(){
+      t6 = setInterval("showAuto6()", 4000+Math.random());
+    });   
+  }
+}
 
 
-      var thumb_img = new Image();
-      $(thumb_img).load(function(){		
-        $("#thumb img").attr("src", img_url);
-
-        img_height = thumb_img.height;
-        img_width = thumb_img.width;
-        
-        bar_right = $("#vert-bar").position().left + $("#vert-bar").width();
-
-        $("#thumb").css("left", bar_right);
-        $("#thumb").css("top", li_top+3-img_height/2);
-
-        $("#thumb").fadeIn();
-
-      }).attr("src", img_url); 
-    }, 500)
-  });
-    
-  $("#vert-bar").mouseout(function(){
-      if (timer_thumb) {
-        clearTimeout(timer_thumb);
-        timer_thumb = 0;
-      }
-    $("#thumb").css("display","none");
-  });  
-  
-  
-  $("#show-frame img").mousemove(function(e) {
-    
-    var cur_mouse_x = e.originalEvent.layerX ||e.originalEvent.x|| 0;
-    var cur_mouse_y = e.originalEvent.layerY||e.originalEvent.y || 0;
-    
-    frame_left = $(this).position().left;
-    frame_top = $(this).position().top;
-    
-    frame_width = $(this).width();
-    frame_height = $(this).height();
-    
-    var element_left;
-    var element_right;
-    element_left = $("#left-arrow");
-    element_right = $("#right-arrow");
-    
-    if(cur_mouse_x<frame_left + frame_width/2)
-    {
-      var url = element_left.attr("next");
-      if(url!="")
-      {
-        if (timer_left) {
-          clearTimeout(timer_left);
-          timer_left = 0;
-        }
-
-        element_right.fadeOut();
-
-        element_left.css("left", frame_left-50);
-        element_left.css("top", frame_top+frame_height/2-30);
-        element_left.css("cursor","pointer");
-
-        element_left.fadeIn();
-        timer_left = setTimeout(function() {
-          element_left.fadeOut()
-        }, 2000)        
-      }
-    }
-    else
-    {
-      var rurl = element_right.attr("next");
-      if(rurl!="")
-      {
-        if (timer_right) {
-          clearTimeout(timer_right);
-          timer_right = 0;
-        }
-
-        element_left.fadeOut();      
-
-        element_right.css("left", frame_left+frame_width);
-        element_right.css("top", frame_top+frame_height/2-30);
-        element_right.css("cursor","pointer");
-
-        element_right.fadeIn();
-        timer_right = setTimeout(function() {
-          element_right.fadeOut()
-        }, 2000)
-      } 
-    }
-	});
-  
-  $("#show-frame img").mouseleave(function(e) {
-    var cur_mouse_x =  e.pageX || 0;
-    var cur_mouse_y =  e.pageY || 0;
-        
-    frame_left = $(this).offset().left;
-    frame_top = $(this).offset().top;
-    
-    frame_width = $(this).width();
-    frame_height = $(this).height();
-    if(cur_mouse_x<frame_left-50||cur_mouse_y<frame_top||cur_mouse_x>frame_left+frame_width+50||cur_mouse_y>frame_top+frame_height)
-    {
-      $("#left-arrow").fadeOut();
-      $("#right-arrow").fadeOut();
-    }
-  });
-  
-  $("#left-arrow").click(function(){
-    var url = $(this).attr("next");
-    if (url!="")
-      window.location = url;
-  });
-  
-  $("#right-arrow").click(function(){
-   var url = $(this).attr("next");
-   if (url!="")
-      window.location = url;
-  });
-  
-//  var resizeTimer;
-//  $(window).resize(function() {
-//    clearTimeout(resizeTimer);
-//    resizeTimer = setTimeout(doSomething, 1000);
-//});  
-});
+function showAuto1()
+{
+    n1 = n1 >=(count1 - 1) ? 0 : ++n1;
+    $("#index-new .content-banner li").eq(n1).trigger('click');
+}
+function showAuto2()
+  {
+    n2 = n2 >=(count2 - 1) ? 0 : ++n2;
+    $("#index-classic .content-banner li").eq(n2).trigger('click');
+  }
+function showAuto3()
+  {
+    n3 = n3 >=(count3 - 1) ? 0 : ++n3;
+    $("#index-media .content-banner li").eq(n3).trigger('click');
+  }
+function showAuto4()
+  {
+    n4 = n4 >=(count4 - 1) ? 0 : ++n4;
+    $("#index-designer .content-banner li").eq(n4).trigger('click');
+  }
+function showAuto5()
+  {
+    n5 = n5 >=(count5 - 1) ? 0 : ++n5;
+    $("#index-brand .content-banner li").eq(n5).trigger('click');
+  }
+function showAuto6()
+  {
+    n6 = n6 >=(count6 - 1) ? 0 : ++n6;
+    $("#index-world .content-banner li").eq(n6).trigger('click');
+  }
