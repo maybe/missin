@@ -55,7 +55,7 @@ $(parentName + " .content-banner li").click(function() {
       if (i >= count6) return;
     }
 
-    $(parentName + " .content-banner-list a").filter(":visible").fadeOut(500).parent().children().eq(i).fadeIn(1000);
+    $(parentName + " .content-banner-list a").filter(":visible").fadeOut(1000).parent().children().eq(i).fadeIn(3000);
     $(parentName + " .content-banner").css("background","");
     
     $(this).toggleClass("on");
@@ -64,56 +64,56 @@ $(parentName + " .content-banner li").click(function() {
   
   if(num==0)
   {
-    t1 = setInterval("showAuto1()", 4000+Math.random());
+    t1 = setInterval("showAuto1()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t1)
       }, function(){
-      t1 = setInterval("showAuto1()", 4000+Math.random());
+      t1 = setInterval("showAuto1()", 8000+Math.random());
     });
   }
   if(num==1)
   {
-    t2 = setInterval("showAuto2()", 4000+Math.random());
+    t2 = setInterval("showAuto2()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t2)
       }, function(){
-      t2 = setInterval("showAuto2()", 4000+Math.random());
+      t2 = setInterval("showAuto2()", 8000+Math.random());
     });
   }
   if(num==2)
   {
-    t3 = setInterval("showAuto3()", 4000+Math.random());
+    t3 = setInterval("showAuto3()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t3)
       }, function(){
-      t3 = setInterval("showAuto3()", 4000+Math.random());
+      t3 = setInterval("showAuto3()", 8000+Math.random());
     });
   }
   if(num==3)
   {
-    t4 = setInterval("showAuto4()", 4000+Math.random());
+    t4 = setInterval("showAuto4()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t4)
       }, function(){
-      t4 = setInterval("showAuto4()", 4000+Math.random());
+      t4 = setInterval("showAuto4()", 8000+Math.random());
     });
   }
   if(num==4)
   {
-    t5 = setInterval("showAuto5()", 4000+Math.random());
+    t5 = setInterval("showAuto5()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t5)
       }, function(){
-      t5 = setInterval("showAuto5()", 4000+Math.random());
+      t5 = setInterval("showAuto5()", 8000+Math.random());
     });   
   }
   if(num==5)
   {
-    t6 = setInterval("showAuto6()", 4000+Math.random());
+    t6 = setInterval("showAuto6()", 8000+Math.random());
     $(parentName + " .content-banner").hover(function(){
       clearInterval(t6)
       }, function(){
-      t6 = setInterval("showAuto6()", 4000+Math.random());
+      t6 = setInterval("showAuto6()", 8000+Math.random());
     });   
   }
 }
