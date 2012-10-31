@@ -69,7 +69,7 @@
       <br clear=all>
     </div>
 
-    <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/newtime"><img src="/img/back_home.jpg" /></a></div>
+    <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/"><img src="/img/back_home.jpg" /></a></div>
   </div>
   <br clear="all" />
 </div>
