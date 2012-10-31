@@ -14,11 +14,11 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/newtime" target="_blank"><img src="/img/content-banner/new_time1.jpg" title="" alt="" /></a>
-        <a href="/newtime" target="_blank"><img src="/img/content-banner/new_time2.jpg" title="" alt="" /></a>
-        <a href="/newtime" target="_blank"><img src="/img/content-banner/new_time3.jpg" title="" alt="" /></a>
-        <a href="/newtime" target="_blank"><img src="/img/content-banner/new_time4.jpg" title="" alt="" /></a>
-        <a href="/newtime" target="_blank"><img src="/img/content-banner/new_time5.jpg" title="" alt="" /></a>
+        <a href="/newtime"><img src="/img/content-banner/new_time1.jpg" title="" alt="" /></a>
+        <a href="/newtime"><img src="/img/content-banner/new_time2.jpg" title="" alt="" /></a>
+        <a href="/newtime"><img src="/img/content-banner/new_time3.jpg" title="" alt="" /></a>
+        <a href="/newtime"><img src="/img/content-banner/new_time4.jpg" title="" alt="" /></a>
+        <a href="/newtime"><img src="/img/content-banner/new_time5.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
@@ -40,9 +40,9 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/classic" target="_blank"><img src="/img/content-banner/classic1.jpg" title="" alt="" /></a>
-        <a href="/classic" target="_blank"><img src="/img/content-banner/classic2.jpg" title="" alt="" /></a>
-        <a href="/classic" target="_blank"><img src="/img/content-banner/classic3.jpg" title="" alt="" /></a>
+        <a href="/classic"><img src="/img/content-banner/classic1.jpg" title="" alt="" /></a>
+        <a href="/classic"><img src="/img/content-banner/classic2.jpg" title="" alt="" /></a>
+        <a href="/classic"><img src="/img/content-banner/classic3.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
@@ -62,8 +62,8 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/media" target="_blank"><img src="/img/content-banner/media1.jpg" title="" alt="" /></a>
-        <a href="/media" target="_blank"><img src="/img/content-banner/media1.jpg" title="" alt="" /></a>
+        <a href="/media"><img src="/img/content-banner/media1.jpg" title="" alt="" /></a>
+        <a href="/media"><img src="/img/content-banner/media1.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
@@ -86,11 +86,11 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/customize" target="_blank"><img src="/img/content-banner/designer1.jpg" title="" alt="" /></a>
-        <a href="/customize" target="_blank"><img src="/img/content-banner/designer2.jpg" title="" alt="" /></a>
-        <a href="/customize" target="_blank"><img src="/img/content-banner/designer3.jpg" title="" alt="" /></a>
-        <a href="/customize" target="_blank"><img src="/img/content-banner/designer4.jpg" title="" alt="" /></a>
-        <a href="/customize" target="_blank"><img src="/img/content-banner/designer5.jpg" title="" alt="" /></a>
+        <a href="/customize"><img src="/img/content-banner/designer1.jpg" title="" alt="" /></a>
+        <a href="/customize"><img src="/img/content-banner/designer2.jpg" title="" alt="" /></a>
+        <a href="/customize"><img src="/img/content-banner/designer3.jpg" title="" alt="" /></a>
+        <a href="/customize"><img src="/img/content-banner/designer4.jpg" title="" alt="" /></a>
+        <a href="/customize"><img src="/img/content-banner/designer5.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
@@ -110,8 +110,8 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/brand" target="_blank"><img src="/img/content-banner/brand1.jpg" title="" alt="" /></a>
-        <a href="/brand" target="_blank"><img src="/img/content-banner/brand1.jpg" title="" alt="" /></a>
+        <a href="/brand"><img src="/img/content-banner/brand1.jpg" title="" alt="" /></a>
+        <a href="/brand"><img src="/img/content-banner/brand1.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
@@ -131,8 +131,8 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/world_dress" target="_blank"><img src="/img/content-banner/world1.jpg" title="" alt="" /></a>
-        <a href="/world_dress" target="_blank"><img src="/img/content-banner/world1.jpg" title="" alt="" /></a>
+        <a href="/world_dress"><img src="/img/content-banner/world1.jpg" title="" alt="" /></a>
+        <a href="/world_dress"><img src="/img/content-banner/world1.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
