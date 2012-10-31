@@ -36,19 +36,19 @@
     <div class="wrapper-section" style="margin-top:50px;"><img src="/img/brand_gift_plus.jpg"/>&nbsp;大宗购买推荐</div>
     <div style="font-size:9pt;margin-top:15px;margin-left:20px;">
       <span style="line-height:1.5em;">商务休闲<br/>娱乐活动<br/>舞台闪烁<br/><br/></span>
-      <span style="color: #6e6e6e;line-height:1.5em;">特殊版型、材料及颜色需求请详询客服</span>
+      <span style="color: #6e6e6e;line-height:1.5em;">特殊版型、材料及颜色需求请详询客服<a href="/"><img src="/img/wangwang.png"></a></span>
     </div>
 
     <div class="wrapper-section" style="margin-top:20px;"><img src="/img/brand_gift_plus.jpg"/>&nbsp;活动租用</div>
     <div style="font-size:9pt;margin-top:15px;margin-left:20px;">
       <span style="line-height:1.5em;"> 多款多色<br/>同款不同色<br/><br/></span>
-      <span style="color: #6e6e6e;line-height:1.5em;">月租、季租及年租需求请详询客服</span>
+      <span style="color: #6e6e6e;line-height:1.5em;">月租、季租及年租需求请详询客服<a href="/"><img src="/img/wangwang.png"></a></span>
     </div>
 
     <div class="wrapper-section" style="margin-top:20px;"><img src="/img/brand_gift_plus.jpg"/>&nbsp;媒体合作</div>
     <div style="font-size:9pt;margin-top:15px;margin-left:20px;">
       <span style="line-height:1.5em;">人气华服<br/>专题定制<br/><br/></span>
-      <span style="color: #6e6e6e;line-height:1.5em;">置换、传播及版权制度请详询客服</span>
+      <span style="color: #6e6e6e;line-height:1.5em;">置换、传播及版权制度请详询客服<a href="/"><img src="/img/wangwang.png"></a></span>
     </div>
 
     <div style="float:left;margin-left:-110px;padding-top:220px;"><a href="/"><img src="img/back_home.jpg" /></a></div>

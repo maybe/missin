@@ -129,9 +129,6 @@ color: #ffffff;
   color:#FFFFFF;
 }
 
-
-
-
 #content {
   float: left;
   margin-bottom: 60px;
@@ -493,4 +490,24 @@ color: #000000;
 .font10pt{
   font-size: 10pt;
   
+}
+
+#world-next-page{
+  position: absolute;
+  right:20px;
+  top:72px;
+  font-size: 9pt;
+  font-family: Palatino,sans-serif;
+  font-style: italic;
+}
+
+#world-next-page a {
+  color:#6E6E6E;
+  text-decoration: none;
+}
+#world-next-page a:visited {
+  color:#6E6E6E;
+}
+#world-next-page a:link {
+  color:#6E6E6E;
 }

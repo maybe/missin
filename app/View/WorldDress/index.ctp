@@ -10,6 +10,8 @@
   <div id="center-panel">
     <div id="wrapper-title"><img src="img/world/world_dress.jpg"/></div>
 
+    <div id="world-next-page"><a class="" href="/world_dress?s=<?php echo ($style+1)%2?>">Next page &gt;</a></div>
+
 		<div style="margin-left:-36px;"><img src="<?php echo $content_array[$style]["img"]?>"/></div>
 		<div class="wrapper-section" style="margin-top:20px;"><img src="/img/brand_gift_plus.jpg"/>&nbsp;<?php echo $content_array[$style]["title"]?></div>
 		<div class="wrapper-description">
