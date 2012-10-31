@@ -481,3 +481,11 @@ color: #000000;
 .content-banner-list a{
   position:absolute;
 }
+
+.text-align-center{
+  text-align: center;
+}
+
+.font8pt{
+  font-size: 8pt;
+}
