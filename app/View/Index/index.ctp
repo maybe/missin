@@ -14,11 +14,11 @@
       </ul>
       <div class="jiahao"></div>
       <div class="content-banner-list">
-        <a href="/newtime"><img src="/img/content-banner/new_time1.jpg" title="" alt="" /></a>
-        <a href="/newtime"><img src="/img/content-banner/new_time2.jpg" title="" alt="" /></a>
-        <a href="/newtime"><img src="/img/content-banner/new_time3.jpg" title="" alt="" /></a>
-        <a href="/newtime"><img src="/img/content-banner/new_time4.jpg" title="" alt="" /></a>
-        <a href="/newtime"><img src="/img/content-banner/new_time5.jpg" title="" alt="" /></a>
+        <a href="/newtime/show"><img src="/img/content-banner/new_time1.jpg" title="" alt="" /></a>
+        <a href="/newtime/show"><img src="/img/content-banner/new_time2.jpg" title="" alt="" /></a>
+        <a href="/newtime/show"><img src="/img/content-banner/new_time3.jpg" title="" alt="" /></a>
+        <a href="/newtime/show"><img src="/img/content-banner/new_time4.jpg" title="" alt="" /></a>
+        <a href="/newtime/show"><img src="/img/content-banner/new_time5.jpg" title="" alt="" /></a>
       </div>
     </div> 
 
