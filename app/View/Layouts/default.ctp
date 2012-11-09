@@ -36,9 +36,9 @@
         </div>
         <div id="follow" style="float:right;margin-right: 30px">
           <div style="float: left; margin:10px 5px 0px 0px;">FOLLOW US ON: </div>
-          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-1.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
-          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-2.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
-          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="img/follow-3.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="/img/follow-1.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="/img/follow-2.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
+          <div class="follow-item"><a href="http://weibo.com/lovemissin" target="_blank"><img src="/img/follow-3.jpg" style="border:0;margin: 0;padding: 0;"/></a></div>
           <br clear="all" />
         </div>
         <br clear="all"/>

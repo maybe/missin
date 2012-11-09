@@ -24,8 +24,8 @@
 
 
     <div class="content-block-title"><img src="img/new_time_word.jpg" /></div>
-    <div class="content-block-getmore"><a href="/newtime"><img src="img/getmore.jpg" /></a></div>
-    <div class="content-block-next" style="top:370px;left:400px;"><a href="/newtime"><img src="img/next-new-time.jpg" /></a></div>
+    <div class="content-block-getmore"><a href="/newtime/show"><img src="img/getmore.jpg" /></a></div>
+    <div class="content-block-next" style="top:370px;left:400px;"><a href="/newtime/show"><img src="img/next-new-time.jpg" /></a></div>
   </div>
 
   <div class="content-block" id="index-classic">
